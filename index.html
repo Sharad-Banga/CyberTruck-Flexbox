@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order Your Cybertruck</title>
+    <link rel="icon" href="./cyb.avif">
+    <style>
+      html{
+        
+        background-color: black;
+      }
+      body {
+        font-family: "Sono", sans-serif;
+      }
+
+      .pricing-container {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 2rem;
+      }
+
+      .pricing-plan {
+        color: white;
+        flex: 1;
+        background-color:  rgb(45, 44, 46 , .7);
+        max-width:400px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 20px;
+      }
+      .plan-title{
+        font-family: honk;
+        font-size: 44px;
+        font-weight: bold;
+        margin-bottom:10px ;
+      }
+      .plan-price {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .plan-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .plan-features li {
+      margin-bottom: 20px;
+    }
+    .plan-button {
+      padding: 10px;
+      background-color: black;
+      color: #fff;
+      border-radius: 5px;
+      border: 0.5px solid white;
+    }
+
+    .plan-button:hover{
+      background-color: rgb(78, 77, 77);
+
+    }
+
+    .t{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    
+    .r{
+      display: flex;
+      justify-content: center;
+      background-image: url("./cyb.avif");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .foot{
+      color: #fff;
+      text-align: center;
+    }
+      @media (max-width: 950px) {
+        .pricing-container {
+        flex-direction: column;
+        height: 100%;
+      }
+      
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+  </head>
+
+  
+  <div class="t">
+    <img src="./cy.png" alt="">
+  </div>
+
+<div class="r">
+  
+
+
+  <body>
+    <div class="pricing-container">
+      <div class="pricing-plan">
+        <div class="plan-title">REAR-WHEEL DRIVE</div>
+        <div class="plan-price">EST. $57,390*</div>
+        <ul class="plan-features">
+          <li>✅ AVAILABLE IN 2025</li>
+          <li>✅ 250 MI. RANGE (EST.)</li>
+          <li>✅ 6.5 SEC. 0-60 MPH</li>
+        </ul>
+        <button class="plan-button">Book Now</button>
+      </div>
+      <div class="pricing-plan">
+        <div class="plan-title">ALL-WHEEL DRIVE</div>
+        <div class="plan-price">EST. $76,390*</div>
+        <ul class="plan-features">
+          <li>✅ DELIVERY IN 2024</li>
+          <li>✅ 340 MI. RANGE (EST.)</li>
+          <li>✅ 4.1 SEC. 0-60 MPH</li>
+        </ul>
+        <button class="plan-button">Book Now</button>
+      </div>
+      <div class="pricing-plan">
+        <div class="plan-title">CYBERBEAST</div>
+        <div class="plan-price">EST. $96,390*</div>
+        <ul class="plan-features">
+          <li>✅ DELIVERY IN 2024</li>
+          <li>✅ 320 MI. RANGE (EST.)</li>
+          <li>✅ 2.6 SEC. 0-60 MPH†</li>
+        </ul>
+        <button class="plan-button">Book Now</button>
+      </div>
+    </div>
+  </div>
+  </body>
+
+  <footer class="foot">
+    <p>----------------------------------------------------------------------------</p>
+    &copy; Sharad Banga. All rights reserved.
+  </footer>
+</html>
